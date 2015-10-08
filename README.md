@@ -19,7 +19,7 @@ And your JavaScript should look like this:
 
 ```js
 $(function () {
-	$(".text_ellipsis").ellipsis({"maxLength": 30});
+     $(".text_ellipsis").ellipsis({"maxLength": 30});
 })
 ```
 
@@ -27,15 +27,14 @@ $(function () {
 
 ```js
 $('.text_ellipsis').ellipsis({
-  // the maximum text length and beyond will be replaced with ellipses
-  maxLength: 30,
-  
-  // whether to open the prompt, the default open state, the value is true
-  openTip: false
+     // the maximum text length and beyond will be replaced with ellipses
+     maxLength: 30,
+     // whether to open the prompt, the default open state, the value is true
+     openTip: false
 });
 ```
 
 ##Dependencies
 To start using ellipsis.js, you will need the following:
 
-* [jQuery](http://jquery.com/download/)
+[jQuery](http://jquery.com/download/)
