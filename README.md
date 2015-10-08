@@ -1,13 +1,13 @@
 # jquery-ellipsis V1.0
 A simple omit the extra text plugin by jquery...
-## Getting Started
 
-### Including it on your page
+##Usage
+
+Including it on your page:
+
 ```html
 <script type="text/javascript" src="jquery-ellipsis-1.0.min.js"></script>
 ```
-
-##Usage
 
 Let's start with the basic markup:
 
