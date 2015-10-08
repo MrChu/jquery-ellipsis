@@ -39,7 +39,3 @@ $('.text_ellipsis').ellipsis({
 To start using ellipsis.js, you will need the following:
 
 * [jQuery](http://jquery.com/download/)
-
-##Wouldn't it be simple? Welcome all of your suggestions.
-
-##Contact me please visit the website: [www.chuweibiao.com](http://www.chuweibiao.com/).
