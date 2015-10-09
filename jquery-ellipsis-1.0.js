@@ -11,13 +11,16 @@
 		var openTip = options.openTip;
 		if (typeof(openTip) != "undefined" && !openTip)
 			hoverTip = false;
-		var limitLength = options.maxLength;
 		this.each(function () {
 			var originalText = this.innerText;
+			var limitLength = options.maxLength;
 			if (originalText.length > limitLength) {
 				if (hoverTip)
 					this.title = originalText;
 				originalText = originalText.substr(0, limitLength);
+				var lastChar = originalText.charAt(originalText.length - 1);
+				if (lastChar == " ")
+					originalText += "...";
 				this.innerText = originalText + "...";
 			}
 		});
