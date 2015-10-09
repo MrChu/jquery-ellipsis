@@ -1,5 +1,5 @@
 # jquery-ellipsis V1.0
-A simple omit the extra text plugin by jquery...
+A simple omit the extra text plugin...
 
 ##Usage
 
