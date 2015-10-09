@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>jQuery Ellipsis...</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<script type="text/javascript" src="jquery-ellipsis-1.0/jquery-ellipsis-1.0.min.js"></script>
+	<style type="text/css">
+		table {
+			margin: 0px auto;
+			font-family: "Microsoft YaHei";
+			border-collapse: collapse;
+			border: 1px solid #CCCCCC;
+		}
+
+		table td {
+			padding: 5px;
+			border: 1px solid #CCCCCC;
+		}
+	</style>
+	<script type="text/javascript">
+		$(function () {
+			$(".text_ellipsis").ellipsis({"maxLength": 20});
+		});
+	</script>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr align="center" bgcolor="#DDDDDD">
+				<td width="5%">ID</td>
+				<td width="8%">姓名</td>
+				<td width="30%">个性签名</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr align="center">
+				<td>01</td>
+				<td>小花</td>
+				<td style="text-align: left;" class="text_ellipsis">虽然金钱不是万能的，但没有钱是万万不能的。虽然这句话很俗，但绝对有道理，所以30岁之前，请把你大部分精力放在你的事业上。</td>
+			</tr>
+			<tr align="center">
+				<td>02</td>
+				<td>小草</td>
+				<td style="text-align: left;" class="text_ellipsis">在内心深处，哪怕只是一个很小的角落里， 请保持一份童心，不是幼稚，但有的时候单纯一点会让你很快乐。所以不要太计较得失，生活本无完美。</td>
+			</tr>
+			<tr align="center">
+				<td>03</td>
+				<td>小溪</td>
+				<td style="text-align: left;" class="text_ellipsis">在年轻的时候，在那些充满了阳光的长长的下午，我无所事事，也无所怕惧，只因为我知道，在我的生命里，有一种永远的等待。挫折会来，也会过去，热泪会流下，也会收起，没有什么可以让我气馁的，因为，我有着长长的一生，而你，你一定会来。</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
