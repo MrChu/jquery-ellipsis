@@ -11,9 +11,9 @@
 		var openTip = options.openTip;
 		if (typeof(openTip) != "undefined" && !openTip)
 			hoverTip = false;
+		var limitLength = options.maxLength;
 		this.each(function () {
 			var originalText = this.innerText;
-			var limitLength = options.maxLength;
 			if (originalText.length > limitLength) {
 				if (hoverTip)
 					this.title = originalText;
