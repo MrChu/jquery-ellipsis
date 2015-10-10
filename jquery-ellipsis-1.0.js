@@ -2,7 +2,7 @@
  * File:        jquery.ellipsis.js
  * Version:     1.0
  * Author:      MrChu
- * Info:        www.chuweibiao.com
+ * Info:        https://github.com/MrChu/jquery-ellipsis
  * Smile to life whatever and whenever.
  */
 (function ($) {
